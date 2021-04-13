@@ -1,0 +1,131 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    margin: 0%;
+    padding: 0%; 
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(32, 19, 54);
+}
+.container .row:nth-child(1){
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container .row:nth-child(1) .col-30{
+    width: 30%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .row:nth-child(1) .col-30 div:nth-child(1){
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container .row:nth-child(1) .col-30 div:nth-child(1) svg{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(163, 109, 199);
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 0 auto;
+    color: black;
+}
+.container .row:nth-child(1) .col-30 div:nth-child(1) svg:hover{
+    background-color:black;
+    color: darkgray;
+    cursor: pointer;
+}
+.container .row:nth-child(1) .col-30 div:nth-child(2){
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container .row:nth-child(1) .col-30 div:nth-child(2) h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.9rem;
+    color: rgb(123, 103, 196);
+}
+.container .row:nth-child(1) .col-30 div:nth-child(2) p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1rem;    
+    color: rgb(196, 202, 202);
+
+}
+.container .row:nth-child(1) .col-30 div:nth-child(2) a{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: rgb(123, 103, 196);
+    text-align: center;
+}
+.container .row:nth-child(2){
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
+.container .row:nth-child(2) .col-100{
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgb(17, 10, 29);
+    box-shadow: none;
+}
+.container .row:nth-child(2) .col-100 h2{
+    margin: 0 auto;
+    margin-top: 40px;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: rgb(196, 202, 202);
+}
+.container .row:nth-child(2) .col-100 h4{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 1.2rem; 
+    color:rgb(180, 172, 226);
+}
+.container .row:nth-child(2) .col-100 p{
+    margin-bottom: 40px;
+    justify-content: center;
+    font-family: cursive;
+    color: rgb(196, 202, 202);
+}
+.container .row:nth-child(2) .col-100 button{
+    width: 30%;
+    justify-content: center;
+    font-family: cursive;
+    background-color: rgb(108, 109, 139);
+    color: rgb(255, 255, 255);
+}
+.container .row:nth-child(2) .col-100 button:hover{
+    background-color: azure;
+    color: black;
+}   
